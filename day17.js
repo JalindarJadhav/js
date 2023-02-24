@@ -38,12 +38,12 @@ console.log(q6)
 console.log(q7)
 
 // indexOf()
-//   0         1           2        3
-//[ 'amit', 'mayuri', 'poorva', 'chinmay' ]
+//    0         1     2        3
+//["Jalindar","Amol","Sham","Gopal"]
 
-let q8 = names.indexOf("mayuri")
+let q8 = names.indexOf("Amol")
 console.log(q8)
-let q9 = names.indexOf("mayur")
+let q9 = names.indexOf("Gopal")
 console.log(q9)
 
 // map()
@@ -120,8 +120,8 @@ let q16 = jkl.flat()
 console.log(q16)
 
 // join()
-let info = ["chinmay","deshpande",770192441]
-let aa = info.join('@')
+let info = ["Jalindar","Jadhav",22,9876543210]
+let aa = info.join(" ")
 console.log(aa)
 
 // sort()

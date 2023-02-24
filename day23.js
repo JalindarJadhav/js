@@ -1,47 +1,47 @@
-// // Array , String , Objects , Userdefind 
-// // Maps , Set
-// let info = {
-//     firstName:"chinmay",
-//     lastName:"deshpande",
-//     age:23,
-//     rollNo:47
-// }
-// // retrive 
-// console.log(info.firstName)
-// // udpdate 
-// info.firstName = "tanmay"
-// // add 
-// info.city = "pune"
-// // delete
-// delete info.age
-// console.log(info)
+// Array , String , Objects , Userdefind 
+// Maps , Set
+let info = {
+    firstName:"Jalindar",
+    lastName:"Jadhav",
+    age:23,
+    rollNo:47
+}
+// retrive 
+console.log(info.firstName)
+// udpdate 
+info.firstName = "tanmay"
+// add 
+info.city = "pune"
+// delete
+delete info.age
+console.log(info)
 
-// for(let key in info){
-//     console.log(key,info[key])
-// }
+for(let key in info){
+    console.log(key,info[key])
+}
 
 // . notation does not work inside for
 // program 1
-// let vehicle = {
-//     color:"red",
-//     type:"SUV"
-// }
+let vehicle = {
+    color:"red",
+    type:"SUV"
+}
 
-// for(let k in vehicle){
-//     console.log(k,vehicle[k])
-// }
+for(let k in vehicle){
+    console.log(k,vehicle[k])
+}
 
-// for(let prop of Object.keys(vehicle)){
-//     console.log(prop)
-// }
+for(let prop of Object.keys(vehicle)){
+    console.log(prop)
+}
 
-// for(let val of Object.values(vehicle)){
-//     console.log(val)
-// }
+for(let val of Object.values(vehicle)){
+    console.log(val)
+}
 
-// for(let [k,v] of Object.entries(vehicle)){
-//     console.log(k,v)
-// }
+for(let [k,v] of Object.entries(vehicle)){
+    console.log(k,v)
+}
 
 // program2
 let  human = {
@@ -55,9 +55,9 @@ for(let prop in human){
     console.log(prop)
 }
 
-// console.log(Object.keys(human))
-// console.log(Object.values(human))
-// console.log(Object.entries(human))
+console.log(Object.keys(human))
+console.log(Object.values(human))
+console.log(Object.entries(human))
 
 for(let prop of Object.keys(human)){
     console.log(prop)
@@ -73,8 +73,8 @@ for(let [k,v] of Object.entries(human)){
 
 
 let info2 = {
-    firstName:"chinmay",
-    lastName:"deshpande",
+    firstName:"Amol",
+    lastName:"Shinde",
     rollNo:23
 }
 

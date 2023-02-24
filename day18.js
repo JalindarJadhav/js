@@ -1,19 +1,19 @@
-// //            0            1      2  3
-// let info = ["chinmay","deshpande",33,44]
-// console.log(info[0])
-// //firstName   lastName   age   rollNumber
-// //["chinmay","deshpande",33,44]
+// //            0            1    2      3
+let info = ["Jalindar","Jadhav",23,987643210]
+console.log(info[0])
+// //firstName   lastName   age   contactNo
+// ["Jalindar","Jadhav",23,987643210]
 
-// // object
-// let info2 = {
-//     // property:value
-//     // key:value 
-//     firstName:"chinmay",
-//     lastName:"deshpande",
-//     age:33,
-//     rollNo:44
-// }
-
+// object
+let infoB = {
+    // property:value
+    // key:value 
+    firstName:"Jalindar",
+    lastName:"Jadhav",
+    age:23,
+    rollNo:987643210
+}
+console.log(infoB)
 // program2
 //            0         1          2       3
 let names = ["rasika","satish","ramesh","rakesh"]
@@ -96,6 +96,8 @@ for(let i = 0 ; i < fruits.length ; i++){ // 1 //2  // 3 //4
     console.log(fruits[i])
 }
 console.log("-------------------")
+
+
 let animal = {
     namee:"tiger",
     legs:4

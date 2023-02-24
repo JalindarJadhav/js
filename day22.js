@@ -1,14 +1,14 @@
 // Object literal
 let amol = {
-    fullName:"amol",
-    lastName:"rao",
+    fullName:"Amol",
+    lastName:"Jadhav",
     age:23,
     skills:["python","django"]
 }
 
-let chinmay = {
-    fullName:"chinmay",
-    lastName:"deshpande",
+let Govind = {
+    fullName:"Govind",
+    lastName:"Navale",
     age:29,
     skills:["python3","django3"]
 }
@@ -24,9 +24,9 @@ let amolB =  new Person()
 console.log(amolB)
 
 amolB.firstName = "amol"
-amolB.lastName = "rao"
-amolB.age = 22
-amolB.rollNo = 66
+amolB.lastName = "jadhav"
+amolB.age = 18
+amolB.rollNo = 12
 console.log(amolB)
 
 // Setting the value at the time on object creation
@@ -40,15 +40,15 @@ class PersonD {
     }
 }
 
-let amolC = new PersonD("amol","rao",34,90)
-let chinmayC = new PersonD("chinmay","deshpande",33,89)
+let Shankar = new PersonD("Shankar","Jadhav",23,22)
+let Vishal = new PersonD("Vishal","Jadhav",27,26)
 
-console.log(amolC)
-console.log(chinmayC)
+console.log(Shankar)
+console.log(Vishal)
 
-chinmayC.city = "nagpur"
-console.log(chinmayC)
-console.log(amolC)
+Shankar.city = "nagpur"
+console.log(Shankar)
+
 
 class PersonE {
     setFirstName(fn){
@@ -65,33 +65,24 @@ class PersonE {
     }
 }
 
-let amolD  = new PersonE()
-console.log(amolD)
+let Sarthak  = new PersonE()
+console.log(Sarthak)
 
 
 
-amolD.setFirstName("amolD")
-amolD.setlastName("rao")
-amolD.setRollNo(23)
-amolD.setAge(33)
-console.log(amolD)
-
-
-
-
+Sarthak.setFirstName("Sarthak")
+Sarthak.setlastName("Kawade")
+Sarthak.setRollNo(18)
+Sarthak.setAge(33)
+console.log(Sarthak)
 
 
 
 
 
 
-// operations with objects
-// console.log(amol)
-// // retirve 
-// console.log(amol.firstName)
-// // update 
-// amol.firstName = "amol r"
-// // delete
-// delete amol.lastName
-// // add
-// amol.city = "pune"
+
+
+
+
+

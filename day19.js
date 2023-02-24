@@ -1,13 +1,12 @@
-// string stores the valu by index
+// string stores the value by index
 
-let firstName = "chinmay"
-let lastName = `dehspande`
-let middle = 'shirish'
+let firstName = "Jalindar"
+let lastName = `Jadhav`
+let middleName = 'Rajendra' 
 
-console.log(firstName[0]) 
-console.log(firstName[1])
-// 0 1 2 3 4 5 6
-// c h i n m a y
+console.log(firstName[0])   //J
+console.log(firstName[1])   //a
+
 
 // String ---- object 
 

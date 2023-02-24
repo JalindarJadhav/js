@@ -1,16 +1,16 @@
 // Object literal
-let amol = {
-    firstName:"amol",
-    lastName:"rao",
-    age:30,
+let Sarthak = {
+    firstName:"Sarthak",
+    lastName:"Kawade",
+    age:29,
     skills:["python","sql","html","css"]
 }
 
-let chinmay = {
-    firstName:"chinmay",
-    lastName:"deshpande",
-    age:32,
-    skills:["python","cypress","html","css"]
+let Pramod = {
+    firstName:"Pramod",
+    lastName:"Gunjal",
+    age:23,
+    skills:["python","html","css"]
 }
 
 // 4 lines 
@@ -23,21 +23,18 @@ class Student {
     age = undefined
     skills = undefined
 }
-// let v = true
-// let a = 90
-// let firstName = "ram"
-// let names = ["chinmay","sarika","poorva"]
-let amola = new Student()
-let chinmaya = new Student()
-console.log(amola)
-console.log(chinmaya)
+
+let Gopal = new Student()
+let Ram = new Student()
+console.log(Gopal)
+console.log(Ram)
 
 // setting the value outside the class
-amola.firstName = "amol"
-amola.lastName = "rao"
-amola.age = 22
-amola.skills = ["python", 'html']
-console.log(amola)
+Gopal.firstName = "Gopal"
+Gopal.lastName = "Gadakh"
+Gopal.age = 22
+Gopal.skills = ["python", 'html']
+console.log(Gopal)
 
 // setting the value at the time of object creation
 
@@ -49,12 +46,12 @@ class Person {
         this.skills = sk
     }
 }
-let amolb = new Person("amol","rao",23,["python","sql"])
-let poorva = new Person("poorva","vyas",23,["python3","sql"])
-console.log(amolb)
-console.log(poorva)
-poorva.city = "ujjain"
-console.log(poorva)
+let amolJ = new Person("amol","jadhav",23,["python","sql"])
+let ramJ = new Person("ram","jadhav",23,["python3","sql"])
+console.log(amolJ)
+console.log(ramJ)
+ramJ.city = "ujjain"
+console.log(ramJ)
 
 
 class PersonD {
@@ -73,8 +70,8 @@ class PersonD {
 }
 let amolc = new PersonD()
 console.log(amolc)
-amolc.setFirstName("amol r")
-amolc.setLastName('rao')
+amolc.setFirstName("amol")
+amolc.setLastName('vani')
 amolc.setAge(24)
 amolc.setSkills(["python","css","html"])
 console.log(amolc)
@@ -82,16 +79,3 @@ console.log(amolc)
 
 
 
-// console.log(amol)
-// // retrive 
-// console.log(amol.firstName)
-// console.log(amol['firstName'])
-// // update 
-// amol.firstName = "amol r"
-// amol['firstName'] = "amol rD"
-// // add 
-// amol.city = "nagpur"
-// amol['city'] = "wardha"
-// // delete
-// delete amol.city
-// delete amol['firstName']

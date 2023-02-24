@@ -1,6 +1,6 @@
-let firstName = `chinmay`
-let lastName = "deshpande"
-let middleName = "shirish"
+let firstName = `Jalindar`
+let lastName = "Jadhav"
+let middleName = "Rajendra"
 
 console.log(firstName)
 console.log(lastName)
@@ -28,17 +28,17 @@ city2 = "Chandrapur"
 //  c     h     a    n     d     r     a     p      u      r 
 // -10   -9    -8   -7    -6    -5    -4    -3     -2      -1
 
-// let q1 = city2.toUpperCase()
-// console.log(q1)
+let q1 = city2.toUpperCase()
+console.log(q1)
 
-// let q2 = city2.toLowerCase()
-// console.log(q2)
+let q2 = city2.toLowerCase()
+console.log(q2)
 
 
 // Method chaining
-//let q3 = city2.toLowerCase().toUpperCase().length.toUpperCase()
-//          "chandrapur"   "CHANDRAPUR"   10 
-//console.log(q3)
+let q3 = city2.toLowerCase().toUpperCase().length.toUpperCase()
+        // "chandrapur"   "CHANDRAPUR"   10 
+console.log(q3)
 
 
 let city3 = "Bhopal"
