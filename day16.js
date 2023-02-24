@@ -1,17 +1,19 @@
-let n = [11,22,33,44,55]
-// [13,24,35,46,57,68,79]
-let s = n.map(function(el,index,arr){
+//map
+
+let arr = [11,22,33,44,55]
+let a = arr.map(function(el,index,arr){
     return el + 2
 })
-console.log(s)
+console.log(a)
 
-let birthYear = [1989,1990,1991,1992]
+let birthYear = [2019,2020,2021,2022]
 let ages = birthYear.map(function(el,index,array){
     return 2023 - el
 })
 console.log(ages)
 
 // program 2
+//filter
 let numbers = [22,33,44,55,22,33,44,55,66]
 let above50 = numbers.filter(function(el,index,arr){
     return el > 50
@@ -24,17 +26,16 @@ let even = numbers.filter(function(el,index,arr){
 console.log(even)
 
 // program 3
+//reduce
 
 let nnm = [11,22,33]  // 66
 let sum = 0
-
 for(let i = 0 ;i < nnm.length ; i++){
     sum = sum + nnm[i]
-    //     0  +   11  ======> 11
-    //     11 +   22 ======> 33
-    //     33 +   33 ======> 66
 }
 console.log(sum)
+
+
 let sumA = nnm.reduce(function(acc,el,index,arr){
     return acc + el  // 33
 },5)
@@ -42,15 +43,15 @@ console.log(sumA)
 
 
 let bal = [11,22,33,44,55,66,110,123,-190,323,-900,-99000]
-
 let deposit = bal.filter(function(el,index,arr){
     return el > 0
 })
+console.log(deposit)
+
 
 let withdrawl = bal.filter(function(el,index,arr){
     return el < 0
 })
-console.log(deposit)
 console.log(withdrawl)
 
 let totalBal = deposit.reduce(function(acc,el,index,arr){
@@ -58,18 +59,20 @@ let totalBal = deposit.reduce(function(acc,el,index,arr){
 },0)
 console.log(totalBal)
 
-// map() , filter() , reduce()
+
 // forEach()
-let names = ['chinmay',"shirish","ram"]
+let names = ['Jalu',"Raghav","Samarth"]
 names.forEach(function(el,index,arr){
     console.log("welcome "+ el)
 })
 
+
+/////////////////////////////////////////////////////
 // map() , filer() , reduce() ,forEach()
 
 // map()
-let arr = [11,22,33,44,55,66,77,88,99,100]
-let q1 = arr.map(function(el){
+let arrA = [11,22,33,44,55,66,77,88,99,100]
+let q1 = arrA.map(function(el){
     return el * 10
 })
 console.log(q1)
@@ -80,6 +83,7 @@ let deposits = transactions.filter(function(el){
     return el > 0
 })
 console.log(deposits)
+//===============================================
 let withdrawls = transactions.filter(function(el){
     return el < 0
 })
@@ -137,4 +141,3 @@ let w2 = marks.every(function(el){
 console.log(w2)
 
 
-// GIT - 10 am

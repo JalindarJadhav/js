@@ -1,52 +1,58 @@
-let x = 10 
+let x=10
 console.log(x)
 console.log(typeof x)
 
+let fName="Jalindar"
+console.log(fName)
+console.log(typeof fName)
 
-let firstName = "chinmay"
-console.log(firstName)
-console.log(typeof firstName)
+let booleanT=false
+console.log(booleanT)
+console.log(typeof booleanT)
 
-let canDrive = true
-console.log(canDrive)
-console.log(typeof canDrive)
-
-
-//             0         1         2       3     4
-let names = ["chinmay","poorva","mayuri","amol","ram"]
-console.log(names)
+//             0           1        2       3     4
+let names = ["Jalindar","Amol","Sarthak","Krish","Jay"]
 console.log(names[0])
-console.log(names[1])
+console.log(names[4])
 console.log(names[3])
+console.log(names[2])
+console.log(names[1])
 
 //              0       1         2       3       4
 let cities = ["pune","mumbai","nagpur","wardha","amarvati"]
 console.log(cities[4])
 console.log(cities[1])
+console.log (cities[0])
+console.log (cities[2])
+console.log (cities[3])
 
 
-for(let i = 0 ; i <= 4 ; i++){ // 1 // 2 // 3 // 4 // 5
-   // console.log(i)  // 0 // 1 // 2 // 3 // 4
+for(let i=0;i<=4;i++){
+    // console.log(i)
     console.log(cities[i])
-    // 1st i = 0
-    // 2nd i = 1
-    // 3rd i = 2
-    // 4th i = 3
-    // 5th i = 4
 }
+
+
 
 //              0           1         2          3
 let country = ["india","srilanka","pakistan","bangladesh"]
+
+for(let i=0;i<country.length;i++){
+    console.log(country[i])
+}
+
 for(let i = 0  ; i <= 3 ; i++){
     console.log(i)
     console.log(country[i])
 }
 
-let i1 = 0
-while(i1 <= 3){
-    console.log(country[i1])
-    i1 ++
+
+let abc=0
+while(abc<=3){
+    console.log(country[abc])
+    abc++
 }
+
 
 // Object - Human
 // Property  - age , color ,gender , height
@@ -72,24 +78,29 @@ while(i1 <= 3){
 
 //              0        1      2        3
 let fruits = ["apple","mango","banana","grapes"]
-let q1 = fruits.length
-console.log(q1)
+// let a1=fruits.length
+// console.log(a1)
+console.log(fruits.length)
+
 
 // methods
 // push()
 // action - adds the element at last 
 // return  - new length of array
-
-let q2 = fruits.push("papaya")
+//["apple","mango","banana","grapes"]
+let a2=fruits.push("Papaya")
 console.log(fruits)
-console.log(q2) 
+console.log(a2)
+
 
 // unshift()
 // action - add the element at start
 // return new length of array
-let q3 = fruits.unshift("berry")
+
+let a4=fruits.unshift("Orange")
 console.log(fruits)
-console.log(q3) 
+console.log(a4)
+ 
 
 //--------------------------------------------------------
 

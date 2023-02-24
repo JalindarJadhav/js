@@ -1,5 +1,5 @@
-//             0         1          2      3
-let names = ["chinmay","poorva","mayuri","amit"]
+//               0        1      2       3
+let names = ["Jalindar","Amol","Sham","Gopal"]
 
 // array --- object 
 // property and method
@@ -7,12 +7,12 @@ let names = ["chinmay","poorva","mayuri","amit"]
 console.log(names.length)
 
 // push()
-let q1 = names.push('amey')
+let q1 = names.push('Ajay')
 console.log(q1)
 console.log(names)
 
 //unshift()
-let q2 = names.unshift('ram')
+let q2 = names.unshift('Ram')
 console.log(q2)
 console.log(names)
 
@@ -27,15 +27,13 @@ console.log(q4)
 console.log(names)
 
 // reverse()
-//[ 'chinmay', 'poorva', 'mayuri', 'amit' ]
 let q5 = names.reverse()
 console.log(names)
 
 // includes()
-//[ 'amit', 'mayuri', 'poorva', 'chinmay' ]
 
-let q6  = names.includes('Poorva')
-let q7  = names.includes('amit')
+let q6  = names.includes('amol')
+let q7  = names.includes('Jalindar')
 console.log(q6)
 console.log(q7)
 
